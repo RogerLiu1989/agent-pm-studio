@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#18282b" />
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <title>arch-16-05 · LangGraph 教学网页</title>
+    <link rel="stylesheet" href="../_shared/styles.css" />
+  </head>
+  <body>
+    <main class="lesson-app">
+      <header class="lesson-header">
+        <div class="lesson-brand"><span class="brand-mark">LG</span><div><strong>LangGraph Agent 系统架构</strong><span>面向技术开发的场景化课程网页</span></div></div>
+        <div class="lesson-meta"><span>ARCH-16-05 · 综合实战：生产级 LangGraph Agent 架构评审</span><span class="status-tag">未接入声音</span></div>
+      </header>
+      <section class="stage-wrap" aria-label="课程场景播放器"><div id="composition" data-composition-id="arch-16-05" data-width="1280" data-height="720"><div id="scene" class="scene" data-scene-id="" data-start="0" data-duration="0" data-track-index="0"></div></div></section>
+      <section class="player-controls" aria-label="课程播放控制"><div class="timeline-row"><span id="time-current">00:00</span><input id="timeline" type="range" min="0" max="100" value="0" aria-label="课程播放进度" /><span id="time-total">00:00</span></div><div class="control-row"><div class="control-group"><button id="previous" class="control-button" type="button" title="上一个场景">⏮</button><button id="play" class="control-button control-button--primary" type="button" title="播放或暂停">▶</button><button id="next" class="control-button" type="button" title="下一个场景">⏭</button></div><div class="scene-label"><span id="scene-index">01</span><span>/</span><span id="scene-total">10</span><span id="scene-name">加载中</span></div><div class="control-group"><button id="speed" class="speed-button" type="button" title="切换播放速度">1×</button><button id="fullscreen" class="control-button" type="button" title="全屏播放">⛶</button></div></div><div class="scene-strip" id="scene-strip" aria-label="场景列表"></div></section>
+      <details class="speaker-dock"><summary>展开本场景讲稿映射</summary><div class="speaker-content"><div><span class="dock-label">当前场景</span><strong id="speaker-scene-title">加载中</strong></div><p id="speaker-text"></p><div class="speaker-footnote"><span id="paragraph-ref">讲稿段落映射</span><span>后续接入 TTS 后，声音时长替换当前估算时长</span></div></div></details>
+      <footer class="lesson-footer"><span>本页是后续视频制作基础，不代表实验已经执行。</span><span>场景结构按本单元教学对象生成</span></footer>
+    </main>
+    <script src="./scene-data.js"></script><script src="../_shared/app.js"></script>
+  </body>
+</html>
